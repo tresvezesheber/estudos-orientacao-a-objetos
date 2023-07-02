@@ -1,0 +1,15 @@
+Implementar as classes abaixo:
+
+Animal
+-nome: String
+-raca: String
+
++Animal()
++Animal(nome:String)
++caminha():String
+
+Cachorro
++late():String
+
+Gato
++mia():String
