@@ -9,7 +9,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/estudos-orientacao-a-objetos.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/heranca/estudo1/Assistente.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/heranca/estudo1/AssistenteAdministrativo.java" afterDir="false" />
@@ -22,6 +21,14 @@
       <change afterPath="$PROJECT_DIR$/src/heranca/estudo2/Contexto" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/heranca/estudo2/Estudo2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/heranca/estudo2/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo3/CamaroteInferior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo3/CamaroteSuperior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo3/Contexto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo3/Estudo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo3/Ingresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo3/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo3/VIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Estudo2">
+  <component name="RunManager" selected="Application.Estudo3">
     <configuration name="Estudo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heranca.estudo1.Estudo1" />
       <module name="estudos-orientacao-a-objetos" />
@@ -88,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Estudo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heranca.estudo3.Estudo3" />
+      <module name="estudos-orientacao-a-objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heranca.estudo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Estudo3" />
         <item itemvalue="Application.Estudo2" />
         <item itemvalue="Application.Estudo1" />
       </list>
@@ -103,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688323726598</updated>
-      <workItem from="1688323728087" duration="7524000" />
+      <workItem from="1688323728087" duration="9378000" />
     </task>
     <servers />
   </component>
