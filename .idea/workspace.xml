@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8166a55d-3775-442f-a147-008e4414eecc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo4/Colaborador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo4/Coordenador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo4/Estudo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo4/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo4/Normal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo4/StatusDoColaborador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Banda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Episodio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Estudo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Podcast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Estudo4">
+  <component name="RunManager" selected="Application.Estudo5">
     <configuration name="Estudo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heranca.estudo1.Estudo1" />
       <module name="estudos-orientacao-a-objetos" />
@@ -105,8 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Estudo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heranca.estudo5.Estudo5" />
+      <module name="estudos-orientacao-a-objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heranca.estudo5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Estudo5" />
         <item itemvalue="Application.Estudo4" />
         <item itemvalue="Application.Estudo3" />
         <item itemvalue="Application.Estudo2" />
@@ -123,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688323726598</updated>
       <workItem from="1688323728087" duration="13097000" />
-      <workItem from="1688388087097" duration="5090000" />
+      <workItem from="1688388087097" duration="14311000" />
     </task>
     <servers />
   </component>
