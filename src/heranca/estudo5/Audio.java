@@ -47,7 +47,8 @@ public abstract class Audio {
         this.curtidas++;
     }
 
-    public String exibeDados() {
+    @Override
+    public String toString() {
         return "Nome: " + this.getTitulo() +
                 ", Duração: " + this.getDuracao() +
                 ", Total de Reproduções: " + this.getTotalDeReproducoes() +

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8166a55d-3775-442f-a147-008e4414eecc" name="Changes" comment="" />
+    <list default="true" id="8166a55d-3775-442f-a147-008e4414eecc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Estudo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Estudo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Musica.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

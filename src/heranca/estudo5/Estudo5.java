@@ -15,7 +15,7 @@ public class Estudo5 {
             }
         }
 
-        System.out.println("Música - " + heavenBesideYou.exibeDados());
+        System.out.println("Música - " + heavenBesideYou.toString());
 
         Podcast hipsters = new Podcast("Hipsters Ponto Tech", "Tecnologia");
         System.out.println("Podcast - " + hipsters.exibeDados());
@@ -29,6 +29,6 @@ public class Estudo5 {
             }
         }
 
-        System.out.println("Episódio: " + episodio350.exibeDados());
+        System.out.println("Episódio: " + episodio350.toString());
     }
 }

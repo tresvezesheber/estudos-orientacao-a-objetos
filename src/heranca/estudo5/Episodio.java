@@ -15,7 +15,7 @@ public class Episodio extends Audio implements Classificavel {
     }
 
     @Override
-    public String exibeDados() {
-        return super.exibeDados() + ", Classificação: " + this.getClassificacao();
+    public String toString() {
+        return super.toString() + ", Classificação: " + this.getClassificacao();
     }
 }
