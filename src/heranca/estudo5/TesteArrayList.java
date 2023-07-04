@@ -2,6 +2,7 @@ package heranca.estudo5;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class TesteArrayList {
 
@@ -33,6 +34,8 @@ public class TesteArrayList {
 
         System.out.println("Lista de Bandas:  \n" + listaDeBandas.toString());
         Collections.sort(listaDeBandas);
-        System.out.println("Lista Ordenada de Bandas:  \n" + listaDeBandas.toString());
+        System.out.println("Lista Ordenada de Bandas (ASC):  \n" + listaDeBandas.toString());
+        listaDeBandas.sort(Comparator.comparing(Banda::getNome).reversed());
+        System.out.println("Lista Ordenada de Bandas (DESC):  \n" + listaDeBandas.toString());
     }
 }
