@@ -4,7 +4,7 @@ public class Estudo5 {
 
     public static void main(String[] args) {
         Banda aliceInChains = new Banda("Alice In Chains", "Grunge");
-        System.out.println("Banda - " + aliceInChains.exibeDados());
+        System.out.println("Banda - " + aliceInChains.toString());
 
         Musica heavenBesideYou = new Musica("Heaven Beside You", 5, aliceInChains);
 

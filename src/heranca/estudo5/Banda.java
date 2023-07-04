@@ -1,6 +1,6 @@
 package heranca.estudo5;
 
-public class Banda {
+public class Banda implements Comparable<Banda> {
 
     private String nome;
 
@@ -23,8 +23,14 @@ public class Banda {
         this.genero = genero;
     }
 
-    public String exibeDados() {
+    @Override
+    public String toString() {
         return "Nome: " + this.nome +
                 ", Gênero: " + this.genero;
+    }
+
+    @Override
+    public int compareTo(Banda outraBanda) {
+        return this.nome.compareTo(outraBanda.nome);
     }
 }
