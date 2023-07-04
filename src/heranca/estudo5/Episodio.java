@@ -4,6 +4,11 @@ public class Episodio extends Audio implements Classificavel {
 
     private Podcast podcast;
 
+    public Episodio (String titulo, int duracao, Podcast podcast) {
+        super(titulo, duracao);
+        this.podcast = podcast;
+    }
+
     @Override
     public int getClassificacao() {
         return this.getTotalDeReproducoes() / this.getCurtidas();

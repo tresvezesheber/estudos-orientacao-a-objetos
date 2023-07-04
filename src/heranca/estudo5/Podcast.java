@@ -6,6 +6,10 @@ public class Podcast {
 
     private String genero;
 
+    public Podcast (String nome, String genero) {
+        this.nome = nome;
+        this.genero = genero;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;

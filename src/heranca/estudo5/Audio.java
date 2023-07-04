@@ -10,6 +10,10 @@ public abstract class Audio {
 
     private int curtidas;
 
+    public Audio (String titulo, int duracao) {
+        this.titulo = titulo;
+        this.duracao = duracao;
+    }
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;

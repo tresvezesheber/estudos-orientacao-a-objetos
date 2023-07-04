@@ -6,6 +6,11 @@ public class Banda {
 
     private String genero;
 
+    public Banda (String nome, String genero) {
+        this.nome = nome;
+        this.genero = genero;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }

@@ -3,16 +3,11 @@ package heranca.estudo5;
 public class Estudo5 {
 
     public static void main(String[] args) {
-        Banda aliceInChains = new Banda();
-        aliceInChains.setNome("Alice In Chains");
-        aliceInChains.setGenero("Grunge");
-
+        Banda aliceInChains = new Banda("Alice In Chains", "Grunge");
         System.out.println("Banda - " + aliceInChains.exibeDados());
 
-        Musica heavenBesideYou = new Musica();
-        heavenBesideYou.setTitulo("Heaven Beside You");
-        heavenBesideYou.setBanda(aliceInChains);
-        heavenBesideYou.setDuracao(5);
+        Musica heavenBesideYou = new Musica("Heaven Beside You", 5, aliceInChains);
+
         for (int i = 0; i < 10; i++) {
             heavenBesideYou.curte();
             for (int j = 0; j < 5; j++) {
@@ -22,15 +17,10 @@ public class Estudo5 {
 
         System.out.println("Música - " + heavenBesideYou.exibeDados());
 
-        Podcast hipsters = new Podcast();
-        hipsters.setNome("Hipsters Ponto Tech");
-        hipsters.setGenero("Tecnologia");
-
+        Podcast hipsters = new Podcast("Hipsters Ponto Tech", "Tecnologia");
         System.out.println("Podcast - " + hipsters.exibeDados());
 
-        Episodio episodio350 = new Episodio();
-        episodio350.setTitulo("TechGuide: Orientação a Objetos – Hipsters Ponto Tech #350");
-        episodio350.setDuracao(42);
+        Episodio episodio350 = new Episodio("TechGuide: Orientação a Objetos – Hipsters Ponto Tech #350", 42, hipsters);
 
         for (int i = 0; i < 12; i++) {
             episodio350.curte();

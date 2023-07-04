@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8166a55d-3775-442f-a147-008e4414eecc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Audio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Banda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Estudo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Musica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heranca/estudo5/Podcast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Audio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Banda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Banda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Estudo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Estudo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heranca/estudo5/Podcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heranca/estudo5/Podcast.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +138,7 @@
       <updated>1688323726598</updated>
       <workItem from="1688323728087" duration="13097000" />
       <workItem from="1688388087097" duration="14311000" />
+      <workItem from="1688469712589" duration="1824000" />
     </task>
     <servers />
   </component>
