@@ -24,6 +24,10 @@ public class Veiculo {
         return placa;
     }
 
+    public Proprietario getProprietario() {
+        return proprietario;
+    }
+
     @Override
     public String toString() {
         return "Veículo do " + proprietario + "\n" +

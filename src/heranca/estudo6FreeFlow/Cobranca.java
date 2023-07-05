@@ -8,11 +8,16 @@ public class Cobranca {
 
     private double valor;
 
-    private Proprietario proprietario;
 
-    public Cobranca(OffsetDateTime dataDaCobranca, double valor, Proprietario proprietario) {
+    public Cobranca(OffsetDateTime dataDaCobranca, double valor) {
         this.dataDaCobranca = dataDaCobranca;
         this.valor = valor;
-        this.proprietario = proprietario;
+    }
+
+    @Override
+    public String toString() {
+        return "Cobranca - " +
+                "Data da Cobranca: " + dataDaCobranca +
+                ", Valor: R$ " + valor;
     }
 }

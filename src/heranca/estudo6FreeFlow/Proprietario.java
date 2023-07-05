@@ -1,5 +1,6 @@
 package heranca.estudo6FreeFlow;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Proprietario {
@@ -8,7 +9,7 @@ public class Proprietario {
 
     private String cpf;
 
-    public List<Cobranca> cobrancas;
+    public List<Cobranca> cobrancas = new ArrayList<>();
 
     public Proprietario(String nome, String cpf) {
         this.nome = nome;
@@ -21,6 +22,14 @@ public class Proprietario {
 
     public String getNome() {
         return nome;
+    }
+
+    public void setCobranca(Cobranca cobranca) {
+        this.cobrancas.add(cobranca);
+    }
+
+    public List<Cobranca> getCobrancas() {
+        return cobrancas;
     }
 
     public void viaja(Veiculo veiculo) {
