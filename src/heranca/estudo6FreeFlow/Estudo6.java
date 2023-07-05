@@ -16,6 +16,7 @@ public class Estudo6 {
         heber.viaja(carroDoHeber);
         pedagioRioSp.realizaCobranca(carroDoHeber);
 
+
         try {
             TimeUnit.SECONDS.sleep(25);
         } catch (InterruptedException e) {
