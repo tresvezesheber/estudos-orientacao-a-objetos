@@ -1,13 +1,14 @@
 package apiArquivosErros.model;
 
+import apiArquivosErros.excecao.ErroDeConversaoDeAnoException;
 import com.google.gson.annotations.SerializedName;
 
 public class Titulo implements Comparable<Titulo> {
 
-    @SerializedName("Title")
+    //@SerializedName("Title")
     private String nome;
 
-    @SerializedName("Year")
+    //@SerializedName("Year")
     private int anoDeLancamento;
 
     private boolean incluidoNoPlano;
@@ -25,8 +26,12 @@ public class Titulo implements Comparable<Titulo> {
 
     public Titulo(TituloOmdb tituloOmdb) {
         this.nome = tituloOmdb.title();
+        if (tituloOmdb.year().length() > 4) {
+            throw new ErroDeConversaoDeAnoException("Não foi possível converter o ano, " +
+                    "pois contém mais de 4 caracteres");
+        }
         this.anoDeLancamento = Integer.parseInt(tituloOmdb.year());
-        this.duracaoEmMinutos = Integer.valueOf(tituloOmdb.runtime().substring(0, 3));
+        this.duracaoEmMinutos = Integer.valueOf(tituloOmdb.runtime().substring(0, 3).trim());
     }
 
     public String getNome() {
